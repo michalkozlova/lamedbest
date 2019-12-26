@@ -483,6 +483,10 @@ section#contact {
   background-size: cover;
 }
 
+section#contact h4 {
+  color: #2B2B2B;
+}
+
 .footer {
   padding: 25px 0;
   text-align: center;
