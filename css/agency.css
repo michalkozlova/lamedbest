@@ -363,7 +363,7 @@ section#feedback .feedback-title {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #46769E;
 }
 
 .timeline > li .timeline-image h4 {
@@ -410,6 +410,10 @@ section#feedback .feedback-title {
   margin-bottom: 0;
 }
 
+.timeline > li .timeline-image i {
+  font-size: 2em;
+}
+
 @media (min-width: 768px) {
   .timeline:before {
     left: 50%;
@@ -440,6 +444,9 @@ section#feedback .feedback-title {
     padding: 0 30px 20px 20px;
     text-align: left;
   }
+  .timeline > li .timeline-image i {
+    font-size: 3em;
+  }
 }
 
 @media (min-width: 992px) {
@@ -462,6 +469,9 @@ section#feedback .feedback-title {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 20px 20px;
   }
+  .timeline > li .timeline-image i {
+    font-size: 5em;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -481,6 +491,9 @@ section#feedback .feedback-title {
   }
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
+  }
+  .timeline > li .timeline-image i {
+    font-size: 5em;
   }
 }
 
