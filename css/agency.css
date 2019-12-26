@@ -177,7 +177,7 @@ img::-moz-selection {
 
 header.masthead {
   text-align: center;
-  color: white;
+  /* color: white; */
   /* background-color: #b0bec5; */
   background-image: url("../img/background/grey.jpeg");
   background-repeat: no-repeat;
@@ -185,27 +185,32 @@ header.masthead {
   background-position: center center;
   background-size: cover;
   cursor: default;
+  height: 90vh;
 }
 
 header.masthead .blue {
   background-image: url("../img/background/blue.jpeg");
-  width: 7%;
-  height: 120px;
-  margin-left: 9%;
+  width: 7vw;
+  height: 16vh;
+  margin-left: 9vw;
 }
 
-header.masthead .pink {
-  background-image: url("../img/background/pink.jpeg");
-  width: 30%;
-  height: 60px;
-  margin-bottom: auto;
-  margin-left: 35%;
+header.masthead .middle {
+  height: 65vh;
 }
 
 header.masthead .green {
   background-image: url("../img/background/green.jpeg");
-  width: 6%;
-  height: 150px;
+  width: 6vw;
+  height: 43vh;
+}
+
+header.masthead .pink {
+  background-image: url("../img/background/pink.jpeg");
+  width: 30vw;
+  height: 9vh;
+  margin-bottom: auto;
+  margin-left: 35vw;
 }
 
 header.masthead .intro-text {
@@ -256,10 +261,13 @@ header.masthead .intro-text .intro-heading {
     font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   }
   header.masthead .pink {
-    height: 120px;
+    height: 13vh;
   }
   header.masthead .green {
-    height: 480px;
+    width: 4vw;
+  }
+  header.masthead .middle {
+    height: 61vh;
   }
 }
 
