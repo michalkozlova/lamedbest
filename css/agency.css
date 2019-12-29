@@ -129,11 +129,10 @@ img::-moz-selection {
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
-/* #mainNav .navbar-brand {
-  color: #7e57c2;
-  font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+#mainNav .flag {
+  background-color: rgba(0, 0, 0, 0);
 }
-
+/*
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
   color: #fec503;
 } */
@@ -537,33 +536,33 @@ section#contact h4 {
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
-    font-size:40px;
+  font-size:40px;
 	box-shadow: 2px 2px 3px #999;
-    z-index:100;
+  z-index:100;
 }
 
 .my-float{
-    margin-top:6px;
-    height: 50px;
-    width: 50px;
+  margin-top:6px;
+  height: 50px;
+  width: 50px;
 }
 
 .whatsapp{
-    text-align:center;
-    background-color:#25d366;
-    color:#FFF;
-    box-shadow: 2px 2px 3px #999;
+  text-align:center;
+  background-color:#25d366;
+  color:#FFF;
+  box-shadow: 2px 2px 3px #999;
 }
 
 .my-whatsapp{
-    margin-top:6px;
-    width: 35px;
+  margin-top:6px;
+  width: 35px;
 }
 
 #contact .card:hover i,#contact .card:hover h4{
-    background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0);
 }
 
 .nobackground {
-    background: rgba(0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0);
 }
