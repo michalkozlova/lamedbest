@@ -16,10 +16,12 @@ p {
 
 a {
   color: #BCA2A5;
+  text-decoration: none;
 }
 
 a:hover {
   color: #BCA2A5;
+  text-decoration: none;
 }
 
 .text-primary {
@@ -507,6 +509,10 @@ section#contact {
 }
 
 section#contact h4 {
+  color: #2B2B2B;
+}
+
+.contactfa{
   color: #2B2B2B;
 }
 
