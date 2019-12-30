@@ -68,6 +68,10 @@
     background-color: #2B2B2B;
     direction: rtl
   }
+
+  #mainNav .big-flag {
+    display: none;
+  }
   
   #mainNav .navbar-toggler {
     font-size: 12px;
@@ -130,6 +134,10 @@
     #mainNav.navbar-shrink .navbar-brand {
       font-size: 1.25em;
       padding: 12px 0;
+    }
+
+    #mainNav .big-flag {
+      display: inherit;
     }
   }
   
