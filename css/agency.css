@@ -64,56 +64,6 @@ h6 {
   }
 }
 
-/*
-::-moz-selection {
-  background: #BCA2A5;
-  text-shadow: none;
-}
-
-::selection {
-  background: #BCA2A5;
-  text-shadow: none;
-}
-
-img::-moz-selection {
-  background: transparent;
-}
-
-img::selection {
-  background: transparent;
-}
-
-img::-moz-selection {
-  background: transparent;
-}
-*/
-
-/*.btn {
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-weight: 700;
-}
-
-.btn-xl {
-  font-size: 18px;
-  padding: 20px 40px;
-}
-
-.btn-primary {
-  background-color: #BCA2A5;
-  border-color: #BCA2A5;
-}
-
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #BCA2A5 !important;
-  border-color: #BCA2A5 !important;
-  color: white;
-}
-
-.btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
-}
-*/
-
 #mainNav {
   background-color: #2B2B2B;
 }
@@ -188,8 +138,6 @@ img::-moz-selection {
 
 header.masthead {
   text-align: center;
-  /* color: white; */
-  /* background-color: #b0bec5; */
   background-image: url("../img/background/grey.jpeg");
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -204,6 +152,10 @@ header.masthead .blue {
   width: 7vw;
   height: 16vh;
   margin-left: 9vw;
+}
+
+header.masthead .blue a {
+  visibility: hidden;
 }
 
 header.masthead .middle {
@@ -251,6 +203,10 @@ header.masthead .intro-text .intro-heading {
 }
 
 @media (min-width: 768px) {
+  /* header.masthead .blue a {
+    visibility: hidden;
+  } */
+
   header.masthead .intro-text {
     /*padding-top: 300px;
     padding-bottom: 200px;*/
@@ -279,6 +235,13 @@ header.masthead .intro-text .intro-heading {
   }
   header.masthead .middle {
     height: 61vh;
+  }
+}
+
+@media (min-width: 992px) {
+  header.masthead .blue a {
+    visibility: visible;
+    margin-bottom: 24px;
   }
 }
 

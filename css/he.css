@@ -152,6 +152,10 @@
     height: 16vh;
     margin-left: 9vw;
   }
+
+  header.masthead .blue a {
+    visibility: hidden;
+  }
   
   header.masthead .middle {
     height: 65vh;
@@ -226,6 +230,13 @@
     }
     header.masthead .middle {
       height: 61vh;
+    }
+  }
+
+  @media (min-width: 992px) {
+    header.masthead .blue a {
+      visibility: visible;
+      margin-bottom: 24px;
     }
   }
   
