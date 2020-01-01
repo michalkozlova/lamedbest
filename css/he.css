@@ -247,9 +247,12 @@
       margin-bottom: 24px;
     }
   }
+
+  section#about {
+    direction: rtl;
+  }
   
   section#services {
-    /* background-image: url("../img/background/light_blue.jpeg"); */
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
