@@ -4,9 +4,9 @@ $('#readMore').click(function(){
     $('#readMore').hide();
 
     $('#feedbackList').append(`
-    <li class="timeline-inverted animated fadeInDown">
+    <li class="timeline-inverted">
         <div class="timeline-image">
-        <img class="rounded-circle img-fluid" src="img/feedback/gili.jpeg" alt="">
+        <img class="rounded-circle img-fluid" class="animated bounce infinite" src="img/feedback/gili.jpeg" alt="">
         </div>
         <div class="timeline-panel">
         <div class="timeline-heading">
