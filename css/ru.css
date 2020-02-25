@@ -313,9 +313,9 @@
   }
   
   .timeline > li .timeline-image h4 {
-    font-size: 10px;
-    line-height: 14px;
-    margin-top: 12px;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 20px;
   }
   
   .timeline > li.timeline-inverted > .timeline-panel {
@@ -359,6 +359,15 @@
   .timeline > li .timeline-image i {
     font-size: 2em;
   }
+
+  #readMore-circle:hover {
+    cursor: pointer;
+    background-color: #315470;
+  }
+
+  .old-feedback {
+    opacity: 0;
+  }
   
   @media (min-width: 768px) {
     .timeline:before {
@@ -381,9 +390,9 @@
       margin-left: -50px;
     }
     .timeline > li .timeline-image h4 {
-      font-size: 13px;
-      line-height: 18px;
-      margin-top: 16px;
+      font-size: 18px;
+      line-height: 22px;
+      margin-top: 24px;
     }
     .timeline > li.timeline-inverted > .timeline-panel {
       float: right;
@@ -408,9 +417,9 @@
       margin-left: -75px;
     }
     .timeline > li .timeline-image h4 {
-      font-size: 18px;
-      line-height: 26px;
-      margin-top: 30px;
+      font-size: 26px;
+      line-height: 30px;
+      margin-top: 40px;
     }
     .timeline > li.timeline-inverted > .timeline-panel {
       padding: 0 20px 20px;
@@ -433,7 +442,9 @@
       margin-left: -85px;
     }
     .timeline > li .timeline-image h4 {
-      margin-top: 40px;
+      font-size: 30px;
+      line-height: 32px;
+      margin-top: 50px;
     }
     .timeline > li.timeline-inverted > .timeline-panel {
       padding: 0 100px 20px 20px;
