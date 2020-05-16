@@ -1,4 +1,24 @@
 var lastFeedbacks = `
+<li class="timeline-inverted">
+<div class="timeline-image">
+  <img class="rounded-circle img-fluid" src="img/feedback/elina.jpg" alt="">
+</div>
+<div class="timeline-panel">
+  <div class="timeline-heading">
+    <h4>Элина Панченко
+      <a href="https://wa.me/972545640350" class="whatsapp rounded-circle" target="_blank">
+        <i class="fa fa-whatsapp my-whatsapp"></i>
+      </a>
+    </h4>
+    <h6 class="subheading">Апрель, 2020</h6>
+  </div>
+  <div class="timeline-body">
+    <p class="text-muted text-justify">
+    Хочу сказать большое спасибо Анне за уроки вождения. Она уверенная, спокойная и терпеливая. Помогает преодолеть страх на дороге и неуверенность в себе. Хорошо обьясняет, учит уверенно ездить, правильно парковаться, при этом не бояться и получать удовольствие от вождения. Рекомендую!!!
+    </p>
+  </div>
+</div>
+</li>
 <li>
 <div class="timeline-image">
   <img class="rounded-circle img-fluid" src="img/feedback/kristina.jpg" alt="">
@@ -39,6 +59,16 @@ var lastFeedbacks = `
   </div>
 </div>
 </li>
+<li id="readMore">
+  <div class="timeline-image" id="readMore-circle">
+    <h4>Показать
+      <br>все</h4>
+  </div>
+</li>
+`
+
+
+var oldFeedbacks = `
 <li>
 <div class="timeline-image">
   <img class="rounded-circle img-fluid" src="img/feedback/valentina.jpg" alt="">
@@ -59,16 +89,6 @@ var lastFeedbacks = `
   </div>
 </div>
 </li>
-<li id="readMore">
-  <div class="timeline-image" id="readMore-circle">
-    <h4>Показать
-      <br>все</h4>
-  </div>
-</li>
-`
-
-
-var oldFeedbacks = `
 <li class="timeline-inverted old-feedback">
               <div class="timeline-image">
                 <img class="rounded-circle img-fluid" src="img/feedback/gili.jpeg" alt="">

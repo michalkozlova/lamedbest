@@ -1,4 +1,24 @@
 var lastFeedbacks = `
+<li class="timeline-inverted">
+<div class="timeline-image">
+  <img class="rounded-circle img-fluid" src="img/feedback/elina.jpg" alt="">
+</div>
+<div class="timeline-panel">
+  <div class="timeline-heading">
+    <h4>אלינה פנצ’נקו
+      <a href="https://wa.me/972545640350" class="whatsapp rounded-circle" target="_blank">
+        <i class="fa fa-whatsapp my-whatsapp"></i>
+      </a>
+    </h4>
+    <h6 class="subheading">אפריל, 2020</h6>
+  </div>
+  <div class="timeline-body">
+    <p class="text-muted text-justify">
+    אני רוצה לומר תודה רבה לאנה על שיעורי הנהיגה שלה. היא בטוחה, רגועה וסבלנית, עוזרת להתגבר על החשש והבטחון העצמי בכביש ומסבירה היטב. היא לימדה אותי לנהוג בביטחון, לחנות נכון, לא לפחד וליהנות מהנהיגה. אני ממליצה עליה בחום!
+    </p>
+  </div>
+</div>
+</li>
 <li>
   <div class="timeline-image">
     <img class="rounded-circle img-fluid" src="img/feedback/kristina.jpg" alt="">
@@ -42,6 +62,16 @@ var lastFeedbacks = `
     </div>
   </div>
 </li>
+<li id="readMore">
+  <div class="timeline-image" id="readMore-circle">
+    <h4>קרא
+      <br>עוד</h4>
+  </div>
+</li>
+`;
+
+
+var oldFeedbacks = `
 <li>
   <div class="timeline-image">
     <img class="rounded-circle img-fluid" src="img/feedback/valentina.jpg" alt="">
@@ -63,16 +93,6 @@ var lastFeedbacks = `
     </div>
   </div>
 </li>
-<li id="readMore">
-  <div class="timeline-image" id="readMore-circle">
-    <h4>קרא
-      <br>עוד</h4>
-  </div>
-</li>
-`;
-
-
-var oldFeedbacks = `
 <li class="timeline-inverted old-feedback">
     <div class="timeline-image">
     <img class="rounded-circle img-fluid" class="animated bounce infinite" src="img/feedback/gili.jpeg" alt="">
