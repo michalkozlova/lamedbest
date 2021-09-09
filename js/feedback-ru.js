@@ -1,6 +1,101 @@
 var lastFeedbacks = `
 <li class="timeline-inverted">
 <div class="timeline-image">
+  <img class="rounded-circle img-fluid" src="img/feedback/lipatova.jpg" alt="">
+</div>
+<div class="timeline-panel">
+  <div class="timeline-heading">
+    <h4>Анастасия Липатова
+      <a href="https://wa.me/972534737226" class="whatsapp rounded-circle" target="_blank">
+        <i class="fa fa-whatsapp my-whatsapp"></i>
+      </a>
+    </h4>
+    <h6 class="subheading">Апрель, 2021</h6>
+  </div>
+  <div class="timeline-body">
+    <p class="text-muted text-justify">
+    Замечательный инструктор. Анна помогла с подтверждением водительского удостоверения. Всего за пару занятий напомнила основы, рассказала про все тонкости и особенности, и я с лёгкостью смогла сдать практический тест. Спасибо большое!
+    </p>
+  </div>
+</div>
+</li>
+
+<li>
+<div class="timeline-image">
+  <img class="rounded-circle img-fluid" src="img/feedback/nastya_ivanova.jpg" alt="">
+</div>
+<div class="timeline-panel">
+  <div class="timeline-heading">
+    <h4>Настя Иванова
+      <a href="https://wa.me/972527809498" class="whatsapp rounded-circle" target="_blank">
+        <i class="fa fa-whatsapp my-whatsapp"></i>
+      </a>
+    </h4>
+    <h6 class="subheading">Март, 2021</h6>
+  </div>
+  <div class="timeline-body">
+    <p class="text-muted text-justify">
+    Прекрасный преподаватель! Множество знаний, море терпения и юмора, который очень помогает снизить градус напряжения. Уроки в приятной и спокойной атмосфере. Нет никого лучше Анны! Рекомендую от всего сердца!
+    </p>
+  </div>
+</div>
+</li>
+
+<li class="timeline-inverted">
+<div class="timeline-image">
+  <img class="rounded-circle img-fluid" src="img/feedback/galanternik.jpg" alt="">
+</div>
+<div class="timeline-panel">
+  <div class="timeline-heading">
+    <h4>Анастасия Галантерник
+      <a href="https://wa.me/972586853301" class="whatsapp rounded-circle" target="_blank">
+        <i class="fa fa-whatsapp my-whatsapp"></i>
+      </a>
+    </h4>
+    <h6 class="subheading">Декабрь, 2020</h6>
+  </div>
+  <div class="timeline-body">
+    <p class="text-muted text-justify">
+    Хочу сказать огромное спасибо Анне! Помимо того, что она просто приятный человек, это совершенно волшебный инструктор: в процессе урока она объясняет досконально все тонкости, если есть сложности в каких-то приёмах, она раскладывает всё по полочкам. И самое ценное – Анна вселяет уверенность в себе как в водителе.
+    </p>
+  </div>
+</div>
+</li>
+
+
+<li id="readMore">
+  <div class="timeline-image" id="readMore-circle">
+    <h4>Показать
+      <br>все</h4>
+  </div>
+</li>
+`
+
+
+var oldFeedbacks = `
+<li>
+<div class="timeline-image">
+  <img class="rounded-circle img-fluid" src="img/feedback/anita.jpg" alt="">
+</div>
+<div class="timeline-panel">
+  <div class="timeline-heading">
+    <h4>Анита
+      <a href="https://wa.me/972539267027" class="whatsapp rounded-circle" target="_blank">
+        <i class="fa fa-whatsapp my-whatsapp"></i>
+      </a>
+    </h4>
+    <h6 class="subheading">Сентябрь, 2020</h6>
+  </div>
+  <div class="timeline-body">
+    <p class="text-muted text-justify">
+    Анна учитель от бога! Все объяснят ,разжовывает ,если не понятно то несколько раз. Меня многие пугали ,что с первого раза не сдать,но я сделала это благодаря Анне 🤗🌸 Спасибо большое Анна,меня судьба свела с вами,по больше вам учеников и успехов во всем 🥰🤩💐
+    </p>
+  </div>
+</div>
+</li>
+
+<li class="timeline-inverted">
+<div class="timeline-image">
   <img class="rounded-circle img-fluid" src="img/feedback/elina.jpg" alt="">
 </div>
 <div class="timeline-panel">
@@ -59,16 +154,6 @@ var lastFeedbacks = `
   </div>
 </div>
 </li>
-<li id="readMore">
-  <div class="timeline-image" id="readMore-circle">
-    <h4>Показать
-      <br>все</h4>
-  </div>
-</li>
-`
-
-
-var oldFeedbacks = `
 <li>
 <div class="timeline-image">
   <img class="rounded-circle img-fluid" src="img/feedback/valentina.jpg" alt="">
